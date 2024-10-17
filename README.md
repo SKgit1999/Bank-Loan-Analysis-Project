@@ -3,6 +3,7 @@
 ### Project Title: Bank Loan of Customers
 ### Modules: Excel, SQL, Tableau, Power BI
 
+---
 ## Contents 📇
   - [Project Overview](#project-overview)
   - [Dataset](#datasets)
@@ -15,12 +16,14 @@
   - [In-depth Analysis](#in-depth-analysis)
   - [Recommendations](#recommendations)
   - [Conclusion](#conclusion)
-
+    
+------
 ## Project Overview 
 This project aims to analyze bank loan data to derive insights and trends using various data analytics tools like Excel, SQL, Tableau, and Power BI. The analysis focuses on understanding loan statuses, payment behaviors, and customer demographics over time.
 
 ![Database and Tables](https://github.com/user-attachments/assets/51b0ef3c-8dec-47d2-99fe-48b5fcf421e3)
 
+---
 ## Datasets
 - Dataset 1: Finance_1.xlsx
 - Dataset 2: Finance_2.xlsx
@@ -30,6 +33,7 @@ These datasets contain detailed financial information about customers, including
 
 ![Table 1](https://github.com/user-attachments/assets/82cc3130-491c-47f6-8984-ea64cf1d6228)    ![Table 2](https://github.com/user-attachments/assets/64e3c7b5-2df8-4795-b503-4fd0108b2a80)
 
+---
 ## Key Performance Indicators (KPIs) 👈
 
 #### 1. Year-wise Loan Amount Statistics
@@ -43,7 +47,7 @@ These datasets contain detailed financial information about customers, including
 #### 5. Home Ownership vs. Last Payment Date Statistics
 - Explores the relationship between home ownership and customers' last payment dates, offering insights into home ownership's effect on loan repayment.
 
-
+---
 ## 🗄️🗄️ Exploratory Data Analysis (EDA) 🗄️🗄️
 ### Purpose:
 The EDA aims to understand the structure and key characteristics of the dataset, uncover patterns, and identify potential outliers or anomalies. 
@@ -62,7 +66,7 @@ This step ensures the data is clean and ready for further analysis.
 ### - SQL: Performed data validation and extraction for further analysis.
 ### - Tableau/Power BI: Visualized the results of EDA through interactive plots.
 
-
+---
 ## Tools Used 🧰
 
 ### 1. Excel 📊
@@ -90,7 +94,7 @@ This step ensures the data is clean and ready for further analysis.
 
 ![PowerBI Dashboard](https://github.com/user-attachments/assets/cc61353d-ab77-4ea7-9bae-adcc6d384dd3)
 
-
+---
 ## Project Workflow ⏳
 ### 1. Data Exploration (Excel)
  - Cleaned and prepared the dataset for analysis.
@@ -108,7 +112,7 @@ This step ensures the data is clean and ready for further analysis.
 ### 4. Advanced Reporting (Power BI)
  - Created sophisticated dashboards that allow for high-level and detailed views of the KPIs, enabling stakeholders to gain actionable insights.
 
-
+---
 ## 💠💠 Results and Analysis for KPIs 💠💠
 ### 1. Year-wise Loan Amount Statistics
 - **Results:** The analysis revealed trends in loan disbursement over the years, highlighting periods of significant growth and contraction. For instance, a marked increase in loan amounts was observed in [Year X], while a decline was noted in [Year Y].
@@ -130,7 +134,7 @@ This step ensures the data is clean and ready for further analysis.
 - **Results:** Homeowners were found to have a more favorable repayment pattern, with longer intervals between last payment dates compared to non-homeowners.
 - **Analysis:** This could suggest that homeownership is associated with greater financial stability, impacting a borrower’s ability to make timely payments. Lenders may want to consider this factor when assessing potential borrowers.
 
-
+---
 ## In-depth Analysis 🗺️ 
 ### Credit Behavior: 
 There is a clear correlation between loan grades and borrower behavior. Higher credit ratings not only lead to lower revolving balances but also indicate better repayment capabilities.
@@ -141,6 +145,7 @@ Understanding the dynamics of loan statuses across different states and months c
 ### Homeownership Factor: 
 The positive relationship between homeownership and timely payments underscores the importance of considering this demographic factor in risk assessments.
 
+---
  ## Recommendations 🖐️ 
 **Concise recommendations based on the combined analysis of the KPIs in your project:**
 
@@ -151,6 +156,7 @@ The positive relationship between homeownership and timely payments underscores 
 
 These recommendations **aim to optimize lending practices and improve borrower outcomes** based on your analysis findings.
 
+---
 ## Conclusion 🔚
 This project analyzes customer loan data to provide meaningful insights into loan statuses, payments, and customer behaviors. 
 The combination of Excel, SQL, Tableau, and Power BI offers a comprehensive approach to exploring the dataset and understanding various financial metrics.
