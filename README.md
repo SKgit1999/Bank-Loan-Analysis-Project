@@ -3,7 +3,7 @@
 ### Project Title: Bank Loan of Customers
 ### Modules: Excel, SQL, Tableau, Power BI
 
-## Contents
+## Contents 📇
   - [Project Overview](#project-overview)
   - [Dataset](#datasets)
   - [Key Performance Indicators](#key-performance-indicators-kpis)
@@ -16,9 +16,10 @@
   - [Recommendations](#recommendations)
   - [Conclusion](#conclusion)
 
-## Project Overview
+## Project Overview 
 This project aims to analyze bank loan data to derive insights and trends using various data analytics tools like Excel, SQL, Tableau, and Power BI. The analysis focuses on understanding loan statuses, payment behaviors, and customer demographics over time.
 
+![Database and Tables](https://github.com/user-attachments/assets/51b0ef3c-8dec-47d2-99fe-48b5fcf421e3)
 
 ## Datasets
 - Dataset 1: Finance_1.xlsx
@@ -27,9 +28,9 @@ This project aims to analyze bank loan data to derive insights and trends using 
 - Dataset Size: Each file contains over 39,000 records
 These datasets contain detailed financial information about customers, including loan details, payment history, home ownership status, and more.
 
+![Table 1](https://github.com/user-attachments/assets/82cc3130-491c-47f6-8984-ea64cf1d6228)    ![Table 2](https://github.com/user-attachments/assets/64e3c7b5-2df8-4795-b503-4fd0108b2a80)
 
-
-## Key Performance Indicators (KPIs)
+## Key Performance Indicators (KPIs) 👈
 
 #### 1. Year-wise Loan Amount Statistics
 - Analyzes the distribution of loan amounts disbursed annually to identify trends and patterns over time.
@@ -42,12 +43,13 @@ These datasets contain detailed financial information about customers, including
 #### 5. Home Ownership vs. Last Payment Date Statistics
 - Explores the relationship between home ownership and customers' last payment dates, offering insights into home ownership's effect on loan repayment.
 
-## Exploratory Data Analysis (EDA)
+
+## 🗄️🗄️ Exploratory Data Analysis (EDA) 🗄️🗄️
 ### Purpose:
 The EDA aims to understand the structure and key characteristics of the dataset, uncover patterns, and identify potential outliers or anomalies. 
 This step ensures the data is clean and ready for further analysis.
 
-### 1. Data Cleaning
+### 1. Data Cleaning 🧹🧹
  #### - Checked for missing values in key columns such as loan amounts, loan statuses, and payment details.
   #### - Handled null values through appropriate imputation methods.
   #### - Removed irrelevant or duplicate records.
@@ -61,29 +63,35 @@ This step ensures the data is clean and ready for further analysis.
 ### - Tableau/Power BI: Visualized the results of EDA through interactive plots.
 
 
+## Tools Used 🧰
 
-## Tools Used
-
-### 1. Excel
+### 1. Excel 📊
  #### - Analysis: Basic dataset cleaning, preparation, and preliminary insights.
  #### - Dashboard: Created pivot tables and charts visualizing year-wise loan distribution, and home ownership vs. last payment trends.
 
-### 2. SQL
+![Excel Dashboard](https://github.com/user-attachments/assets/feeb5d9e-1753-4afa-8437-ce49c70a4c21)
+
+
+### 2. SQL 🔐
  #### - Analysis: Solved all the KPIs using SQL queries.
  #### - Solution: Queries were used for data extraction, transformation, and aggregation to provide key insights into loan amounts, revolving balances, loan statuses, and payment behaviors.
  #### - Dashboard: Generated insights for visualization based on SQL queries.
 
-### 3.Tableau
+### 3.Tableau 🗃️ 
  #### - Analysis: Created interactive visualizations to explore KPI data.
  #### - Dashboard: Developed dashboards to display year-wise loan trends, state-wise loan performance, and comparisons between verified vs. non-verified payments.
 
-### 4. Power BI
+![Tableau Dashboard](https://github.com/user-attachments/assets/82e077ab-c0e8-4b4b-aa30-955b1a1ab050)
+
+
+### 4. Power BI 📈 
  #### - Analysis: Advanced data reporting and visualization.
  #### - Dashboard: Produced detailed and interactive reports focusing on loan performance, customer payment behaviors, and other KPIs.
 
+![PowerBI Dashboard](https://github.com/user-attachments/assets/cc61353d-ab77-4ea7-9bae-adcc6d384dd3)
 
 
-## Project Workflow
+## Project Workflow ⏳
 ### 1. Data Exploration (Excel)
  - Cleaned and prepared the dataset for analysis.
  - Created initial summary statistics and pivot tables for quick insights.
@@ -92,6 +100,8 @@ This step ensures the data is clean and ready for further analysis.
  - Solved the KPIs by writing SQL queries to extract relevant data.
  - SQL queries aggregated and filtered data to provide insights into loan status, payment trends, and customer segments.
 
+![Modeling](https://github.com/user-attachments/assets/fab38133-647b-4f36-a374-d9ed2b29bd2b)
+
 ### 3. Data Visualization (Tableau)
  - Designed interactive dashboards for in-depth visualization of trends like loan amount disbursement, regional loan status analysis, and more.
 
@@ -99,7 +109,7 @@ This step ensures the data is clean and ready for further analysis.
  - Created sophisticated dashboards that allow for high-level and detailed views of the KPIs, enabling stakeholders to gain actionable insights.
 
 
-## Results and Analysis for KPIs
+## 💠💠 Results and Analysis for KPIs 💠💠
 ### 1. Year-wise Loan Amount Statistics
 - **Results:** The analysis revealed trends in loan disbursement over the years, highlighting periods of significant growth and contraction. For instance, a marked increase in loan amounts was observed in [Year X], while a decline was noted in [Year Y].
 - **Analysis:** This trend could indicate external economic factors, changes in lending policies, or shifts in borrower behavior. It’s crucial to correlate these findings with economic indicators such as interest rates or employment rates during those years.
@@ -121,7 +131,7 @@ This step ensures the data is clean and ready for further analysis.
 - **Analysis:** This could suggest that homeownership is associated with greater financial stability, impacting a borrower’s ability to make timely payments. Lenders may want to consider this factor when assessing potential borrowers.
 
 
-## In-depth Analysis  
+## In-depth Analysis 🗺️ 
 ### Credit Behavior: 
 There is a clear correlation between loan grades and borrower behavior. Higher credit ratings not only lead to lower revolving balances but also indicate better repayment capabilities.
 ### Impact of Verification: 
@@ -131,7 +141,7 @@ Understanding the dynamics of loan statuses across different states and months c
 ### Homeownership Factor: 
 The positive relationship between homeownership and timely payments underscores the importance of considering this demographic factor in risk assessments.
 
- ## Recommendations  
+ ## Recommendations 🖐️ 
 **Concise recommendations based on the combined analysis of the KPIs in your project:**
 
  - Enhance Verification Processes: Increase customer verification rates to improve overall repayment statistics.
@@ -141,7 +151,7 @@ The positive relationship between homeownership and timely payments underscores 
 
 These recommendations **aim to optimize lending practices and improve borrower outcomes** based on your analysis findings.
 
-## Conclusion
+## Conclusion 🔚
 This project analyzes customer loan data to provide meaningful insights into loan statuses, payments, and customer behaviors. 
 The combination of Excel, SQL, Tableau, and Power BI offers a comprehensive approach to exploring the dataset and understanding various financial metrics.
 
